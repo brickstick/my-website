@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">BrickStick</div>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="hero-left">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Discover my journey and creations in the world of video editing.</p>
+            <a href="#projects" class="cta-button">Explore Projects</a>
+        </div>
+        <div class="hero-right">
+            <!-- YouTube Showreel Video with 16:9 Aspect Ratio -->
+            <div class="video-container">
+                <iframe class="showreel" src="https://www.youtube.com/embed/8fFyOgCHviA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hello! my name is Aashish Bhusal aka BrickStick, a passionate video editor with a keen eye for storytelling and aesthetics. I specialize in crafting visually compelling stories that captivate audiences. With expertise in Adobe Premiere Pro and DaVinci Resolve, I excel in post-production techniques, including color grading, motion graphics, audio synchronization, and dynamic transitions. I have a strong eye for detail, ensuring that every project I touch meets the highest creative standards.</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="project1-thumbnail.jpg" alt="Project 1">
+                    <h3>Project Title 1</h3>
+                    <p>A brief description of this amazing video project.</p>
+                </div>
+                <div class="project-card">
+                    <img src="project2-thumbnail.jpg" alt="Project 2">
+                    <h3>Project Title 2</h3>
+                    <p>A brief description of another stunning video project.</p>
+                </div>
+                <div class="project-card">
+                    <img src="project3-thumbnail.jpg" alt="Project 3">
+                    <h3>Project Title 3</h3>
+                    <p>A brief description of a remarkable project that stands out.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>Have a project in mind or just want to say hi? Reach out to me!</p>
+            <form>
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 BrickStick. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
