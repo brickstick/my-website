@@ -202,4 +202,32 @@ footer {
 footer p {
     margin: 0;
 }
+@media (max-width: 768px) {
+    #hero {
+        display: flex;
+        flex-direction: column; /* Stack elements vertically */
+        align-items: center; /* Center items */
+        text-align: center; /* Center text */
+    }
+
+    .hero-left {
+        order: 1; /* Ensure welcome text is first */
+    }
+
+    .hero-right {
+        order: 2; /* Ensure showreel is second */
+        width: 100%; /* Full width for showreel on mobile */
+        margin-top: 1rem; /* Add spacing above the showreel */
+    }
+
+    .showreel {
+        width: 100%; /* Ensure showreel takes full width */
+    }
+
+    .showreel iframe {
+        width: 100%; /* Make iframe responsive */
+        height: auto; /* Maintain aspect ratio */
+    }
+}
+
 
